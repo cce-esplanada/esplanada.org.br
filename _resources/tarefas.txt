@@ -1,14 +1,22 @@
-*** Quem Somos
-- Texto para Opus Dei
-- Foto para o Opus Dei, ex: nosso Padre
+*** Residência
+- Começar
+
+Referências:
+- Residência na França: residencelourmel.org
+- https://pinheiros.org/
+- http://www.ccub.org.br/
+
 
 *** Direção Espiritual
-- Texto explicativo
-- Algumas orientações
-- Foto + Mini boi do dpois padres
-- Botão
+- Adequar o tamanho das fotos dos Padres
+ok - Algumas orientações
+ok - Texto explicativo
+ok - Botão
+
+
 
 *** Quero Ajudar
+- Foto principal
 
 Estrutura
 - Explicar a ACERE (brevemente, copiar algum texto)
