@@ -17,10 +17,10 @@ ok - Botão
 
 
 *** Quero Ajudar
-- Foto principal
+ok - Foto principal
 
 Estrutura
-- Explicar a ACERE (brevemente, copiar algum texto)
+ok - Explicar a ACERE (brevemente, copiar algum texto)
 - Apresentar as formas de doações
 - Botão para o formulário (igual na campanha da residencia)
 - Seção para Campanhas Econômicas (como os artigos da home. Cada artigo explica e link para a campanha correspondente)
