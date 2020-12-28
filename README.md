@@ -1,8 +1,5 @@
 ---
 title: README
-permalink: /readme/
-baseurl: "/"
-teste: valor
 ---
 
 # Site do Centro Cultural Esplanada
