@@ -25,7 +25,9 @@ O *template* base utilizado foi o [Editorial by HTML5 UP](https://html5up.net/ed
 `cd esplanada.org.br`
 
 2. Faça o build e sirva num servidor local
-`bundle exec jekyll serve`
+```
+bundle exec jekyll serve
+```
 
 3. Navegue até http://localhost:4000
 
