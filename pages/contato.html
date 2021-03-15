@@ -24,12 +24,15 @@ title: Contato
                     <h3>Formulário de Contato</h3>
                 </header>
                 <a name="ancora-contato"></a>
-                <p>Você também pode submeter uma mensagem através do formulário de contato que responderemos o quanto antes.</p>
-                <form method="post" action="#">
+                <p>Envie sua mensagem no formulário abaixo, e responderemos o quanto antes.</p>
+
+                <!-- Serviço utilizado: formspree.io: https://formspree.io/forms/mvovedkl/submissions -->
+                <!-- User: contato@esplanada.org.br -->
+                <form method="post" action="https://formspree.io/f/mvovedkl">
                     <div class="row gtr-uniform">
                         <div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Nome"></div>
-                        <div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="E-mail"></div>
-                        <div class="col-12"><input type="text" name="subject" id="subject" placeholder="Assunto"></div>
+                        <div class="col-6 col-12-xsmall"><input type="email" name="_replyto" id="email" placeholder="E-mail"></div>
+                        <div class="col-12"><input type="text" name="_subject" id="subject" placeholder="Assunto"></div>
                         <div class="col-12"><textarea name="message" id="message" placeholder="Mensagem" rows="6"></textarea></div>
                         <div class="col-12">
                             <ul class="actions">
