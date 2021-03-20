@@ -25,15 +25,15 @@
 		<meta property="og:type" content="website">
 		<meta property="og:title" content="{{ page.og-title }}">
 		<meta property="og:description" content="{{ page.og-description }}">
-		<meta property="og:image" content="{{page.baseurl}}assets/images/assets/images/a_ogp/{{ page.og-image }}">
+		<meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/assets/images/a_ogp/{{ page.og-image }}">
 
 		<!-- Twitter Meta Tags -->
 		<meta name="twitter:card" content="summary_large_image">
 		<meta property="twitter:domain" content="{{ site.url }}">
-		<meta property="twitter:url" content="{{ page.url }}">
+		<meta property="twitter:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
 		<meta name="twitter:title" content="{{ page.og-title }}">
 		<meta name="twitter:description" content="{{ page.og-description }}">
-		<meta name="twitter:image" content="{{site.baseurl}}assets/images/assets/images/a_ogp/{{ page.og-image }}">
+		<meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}/assets/images/a_ogp/{{ page.og-image }}">
 
 	</head>
 
