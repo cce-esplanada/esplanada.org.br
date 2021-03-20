@@ -21,7 +21,7 @@
 		<meta name="description" content="{{ page.og-description }}">
 
 		<!-- Facebook Meta Tags -->
-		<meta property="og:url" content="{{ page.url }}">
+		<meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
 		<meta property="og:type" content="website">
 		<meta property="og:title" content="{{ page.og-title }}">
 		<meta property="og:description" content="{{ page.og-description }}">
@@ -48,6 +48,9 @@
 
 						<!-- Header -->
 						{% include header.html %}
+
+</br>link: {{ site.url }}{{ site.baseurl }}{{ page.url }}
+</br>image-path: {{ site.url }}{{ site.baseurl }}/assets/images/a_ogp/{{ page.og-image }}
 
 					</br>site.url = {{ site.url }}
 				</br>page.url = {{ page.url }}
