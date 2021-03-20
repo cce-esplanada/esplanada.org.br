@@ -19,6 +19,4 @@ defaults:
       layout: "default"
       og-title: Centro Cultural Esplanada - CCE
       og-description: "Centro do Opus Dei para homens em São José dos Campos, São Paulo, Brasil."
-      og-url:
-      og-image-path: /assets/images/a_ogp/
       og-image: ogp-default.png
