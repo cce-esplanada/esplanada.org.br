@@ -16,8 +16,8 @@ defaults:
   - scope:
       path: "" # an empty string here means all files in the project
     values:
-      url: http://esplanada.org.br
       layout: "default"
+      og-url: "http://esplanada.org.br"
       og-title: Centro Cultural Esplanada - CCE
       og-description: "Centro do Opus Dei para homens em São José dos Campos, São Paulo, Brasil."
       og-image: ogp-default.png
