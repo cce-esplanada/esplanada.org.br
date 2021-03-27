@@ -7,13 +7,25 @@
 		<meta name="description" content="Centro do Opus Dei para homens em São José dos Campos, São Paulo, Brasil.">
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="{{page.baseurl}}assets/css/main.css" />
-	
-    <!-- jQuery 1.8 or later, 33 KB -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
-    <!-- Fotorama from CDNJS, 19 KB -->
-    <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+		<!-- jQuery 1.8 or later, 33 KB -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+		<!-- Fotorama from CDNJS, 19 KB -->
+		<link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+
+		{% if site.url != 'http://localhost:4000' %}
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-9286190-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-9286190-1');
+		</script>
+		{% endif %}
 
 		<!-- Meta Tags Generated via https://www.opengraph.xyz -->
 		<!-- HTML Meta Tags -->

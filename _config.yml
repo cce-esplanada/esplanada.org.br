@@ -1,3 +1,5 @@
+url: http://esplanada.org.br
+
 defaults:
   - scope:
       path: "pages/*"
