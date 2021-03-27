@@ -44,4 +44,9 @@ bundle exec jekyll serve
 3. É necessário ter o script `deploy-esplanada.org.br.txt` na pasta raíz da instalação do WinSCP.
 
 ### Procedimentos
-1. Basta executar o arquivo: `_resources/deploy-esplanada.org.br.bat`
+1. Faça o build do site
+```
+bundle exec jekyll build
+```
+
+2. Adquirir e executar o arquivo: `deploy-esplanada.org.br.bat`
