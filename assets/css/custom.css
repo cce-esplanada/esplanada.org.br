@@ -1,0 +1,37 @@
+/*
+    CSS que adiciona novos estilos (diferentes do template HTML UP)
+ */
+.button-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7f1416;
+    border-radius: 5px;
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    bottom: 30px;
+    right: 30px;
+    transform: translateX(100px);
+    color: #ffffff;
+    cursor: pointer;
+    user-select: none;
+    box-shadow:
+        0 3px 6px rgb(0 0 0 / 16%),
+        0 3px 6px rgb(0 0 0 / 23%);
+}
+
+    .button-top > img {
+        width: 20px;
+    }
+
+    .button-top.is-visible {
+        transform: translateX(0);
+    }
+
+    @media (max-width: 480px) {
+        .button-top  {
+            bottom: 10px;
+            right: 10px;
+        }
+    }
