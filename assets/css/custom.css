@@ -35,3 +35,47 @@
             right: 10px;
         }
     }
+
+
+/*
+    CSS que customiza o App de consulta de livros
+*/
+.app-livros {}
+
+    .app-livros .sc-gZMcBi,
+    .app-livros .sc-VigVT {
+        /* Campo de filtro e seletor de biblioteca */
+        height: 3em;
+    }
+
+    .app-livros .sc-gqjmRU {
+        /* Botão de pesquisar */
+        background-color: #7f1416;
+        color: white !important;
+    }
+
+    .app-livros h2 {
+        /* Título do livro */
+        margin-bottom: 0;
+    }
+
+    .app-livros .sc-bxivhb {
+        /* Autor do livro */
+        margin-top: 16px;
+    }
+
+    .app-livros p {
+        /* Código do livro */
+        margin-bottom: 0;
+    }
+
+    .app-livros .sc-bZQynM {
+        /* Área com o status de empréstimo e código do livro */
+        margin-top: 0;
+    }
+
+    .app-livros .sc-jzJRlG {
+        /* Modal de detalhes do livro */
+        /* Aumenta o z-index para sobrepor o menu do site */
+        z-index: 10001;
+    }
