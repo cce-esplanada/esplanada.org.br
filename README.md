@@ -50,3 +50,7 @@ bundle exec jekyll build
 ```
 
 2. Adquirir e executar o arquivo: `deploy-esplanada.org.br.bat`
+
+3. Navegue até http://esplanada.org.br e confira se as alterações foram aplicadas
+
+4. Fazer push no GitHub com as alterações
